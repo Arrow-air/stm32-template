@@ -17,7 +17,7 @@ project(${PROJECT_NAME} C ASM)
 find_package(CMSIS COMPONENTS ${STM32_COMPONENT} REQUIRED)
 
 set(PROJECT_SOURCES
-    main.c
+    src/main.c
 )
 
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
